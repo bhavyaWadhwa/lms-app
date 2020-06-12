@@ -1,0 +1,3151 @@
+2020-05-20 23:01:11[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3144820608382973063_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3144820608382973063_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-05-20 23:02:08[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-05-20 23:02:08[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-05-22 15:41:44[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3966377264022684879_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3966377264022684879_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-22 15:42:55[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-22 15:42:55[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-22 15:43:11[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-22 15:43:11[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-22 18:30:04[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3966377264022684879_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3966377264022684879_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-22 18:32:28[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-05-22 18:32:28[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-05-23 11:57:18[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-05-23 11:57:18[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-05-23 11:57:18[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-05-23 11:57:18[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-05-23 11:57:19[WARN] user: root
+GET /school/courses/3/targets/74/details
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb__604994497777991982_175060'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-23 11:57:19[WARN] user: root
+GET /school/courses/3/targets/74/details
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb__604994497777991982_175060'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-23 13:42:53[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-23 13:42:53[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-23 14:18:51[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3966377264022684879_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3966377264022684879_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-05-23 14:20:26[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-05-23 14:20:26[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-05-25 13:58:02[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__1553700789145836908_170420'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__1553700789145836908_170420'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-25 13:59:23[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__1553700789145836908_170420'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__1553700789145836908_170420'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-25 14:02:06[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__1553700789145836908_170420'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__1553700789145836908_170420'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-25 21:17:20[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-25 21:17:20[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-29 14:38:08[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___857619186236773745_167940'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___857619186236773745_167940'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-05-29 14:38:08[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___857619186236773745_167940'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___857619186236773745_167940'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 12:35:55[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 12:45:32[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 12:45:51[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 12:45:51[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 12:45:55[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 12:46:10[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 12:46:10[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 12:53:59[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___167455969154942693_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 13:22:28[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 14:04:34[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 14:09:08[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 14:10:15[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 14:13:07[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 14:15:30[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 14:18:27[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 15:43:04[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:43:04[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:44:47[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:44:47[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:46:05[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:46:05[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:46:34[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:46:34[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:46:44[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:46:44[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:50:00[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:50:00[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:50:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:50:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:52:19[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:52:19[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:53:30[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:53:30[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:53:42[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:53:42[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 15:58:07[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 15:58:07[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:00:30[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:00:30[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:01:37[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:01:37[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:02:52[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:02:52[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:03:20[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:03:20[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:08:18[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:08:18[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:13:13[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 16:13:28[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:13:28[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:17:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:17:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:17:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:17:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 16:19:18[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 16:19:18[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 16:19:52[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 16:19:52[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 16:21:16[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 16:21:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 16:21:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 17:15:52[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:15:52[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:17:29[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:17:29[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:19:00[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:19:00[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:25:41[WARN] user: root
+GET /school/courses/1/targets/36/content
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb__8623987709626056_301160'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:25:41[WARN] user: root
+GET /school/courses/1/targets/36/content
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb__8623987709626056_301160'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 17:43:13[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 17:43:13[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 18:06:04[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 18:07:35[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 18:08:11[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-02 18:08:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 18:08:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 18:13:44[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 18:14:05[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 18:14:05[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-02 18:38:07[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 18:38:08[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-02 18:38:27[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-02 18:38:27[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 13:39:26[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 13:42:59[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 13:43:01[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 13:43:21[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 13:44:00[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 13:44:00[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 13:44:09[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 15:00:54[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:00:54[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:06:16[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:06:16[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:06:49[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:06:49[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:06:54[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:06:54[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:09:27[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:09:27[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:12:11[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-03 15:23:55[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-03 15:24:30[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-03 15:24:30[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-03 15:24:31[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-03 15:24:46[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-03 15:25:14[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 15:29:09[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:29:09[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:29:27[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 15:31:28[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 15:33:17[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:33:17[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:54:10[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 15:54:39[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 15:54:39[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 15:57:37[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 16:45:45[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 16:48:31[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 16:48:47[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 16:50:04[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 16:50:48[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 17:07:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:07:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:08:32[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 17:14:02[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 17:18:43[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 17:24:50[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:24:50[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:28:24[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:28:24[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:32:22[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:32:22[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:33:40[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:33:40[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:34:15[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:34:15[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:35:42[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:35:42[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:36:34[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:36:34[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:37:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:37:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:38:22[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:38:22[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:48:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:48:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:48:48[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:48:48[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:50:04[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-03 17:50:49[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 17:53:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:53:31[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:53:38[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-03 17:53:55[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-03 17:53:55[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-03 17:54:27[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__3911005847758470626_194100'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-05 17:21:49[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__1515402481743483692_166600'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__1515402481743483692_166600'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-05 17:40:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-05 17:40:11[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-05 17:49:28[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-05 17:49:28[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-05 18:23:41[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__1515402481743483692_398000'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__1515402481743483692_398000'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-05 18:23:52[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-05 18:23:52[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-05 18:25:19[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__1515402481743483692_398000'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__1515402481743483692_398000'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-05 18:27:38[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__1515402481743483692_398000'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__1515402481743483692_398000'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-06 14:27:55[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__2147129317660380689_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__2147129317660380689_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-06 14:28:30[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-06 14:28:30[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-06 14:52:20[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__2147129317660380689_167120'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__2147129317660380689_167120'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-06 14:54:53[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-06 14:54:53[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-06 15:46:51[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__2147129317660380689_345960'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__2147129317660380689_345960'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-06 15:55:20[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-06 15:55:20[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-06 15:57:40[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-06 15:57:40[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-06 16:00:07[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEvent => [:founders, :timeline_event_owners]
+  Remove from your query: .includes([:founders, :timeline_event_owners])
+Call stack
+
+2020-06-06 16:00:07[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEventOwner => [:founder]
+  Remove from your query: .includes([:founder])
+Call stack
+
+2020-06-06 16:56:14[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-06 16:56:14[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:41:13[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 12:41:19[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 12:41:19[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 12:41:20[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 12:41:20[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 12:41:38[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 12:41:38[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 12:41:53[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:41:53[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:44:08[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:44:17[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:44:17[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:47:05[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:47:05[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:49:29[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:49:29[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:49:57[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:49:57[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:52:07[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:52:07[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:54:17[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:54:17[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:54:34[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:54:34[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:54:55[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:54:55[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:57:21[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 12:57:21[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:10:39[WARN] user: root
+POST /graphql
+USE eager loading detected
+  TargetGroup => [:level]
+  Add to your query: .includes([:level])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/queries/sort_curriculum_resources_mutator.rb:10:in `block (2 levels) in sort'
+  /home/kochar/Documents/pupilfirst-master/app/queries/sort_curriculum_resources_mutator.rb:9:in `block in sort'
+  /home/kochar/Documents/pupilfirst-master/app/queries/sort_curriculum_resources_mutator.rb:8:in `sort'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/mutations/sort_curriculum_resources.rb:14:in `resolve'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:10:41[WARN] user: root
+POST /graphql
+USE eager loading detected
+  TargetGroup => [:level]
+  Add to your query: .includes([:level])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/queries/sort_curriculum_resources_mutator.rb:10:in `block (2 levels) in sort'
+  /home/kochar/Documents/pupilfirst-master/app/queries/sort_curriculum_resources_mutator.rb:9:in `block in sort'
+  /home/kochar/Documents/pupilfirst-master/app/queries/sort_curriculum_resources_mutator.rb:8:in `sort'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/mutations/sort_curriculum_resources.rb:14:in `resolve'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:29:12[WARN] user: root
+GET /school/courses/3/targets/74/content
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:29:12[WARN] user: root
+GET /school/courses/3/targets/74/content
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:39:45[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:39:45[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:41:58[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:41:58[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:42:22[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:42:22[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:51:43[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 13:51:43[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 14:25:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 14:25:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 15:15:21[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 15:15:36[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 15:15:36[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 15:40:18[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 15:40:44[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 15:40:44[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 15:41:46[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:41:46[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:55:02[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:55:02[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:55:50[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:55:50[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:56:42[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:56:42[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:57:15[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:57:15[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:58:12[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:58:12[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:59:25[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  Level => [:target_groups]
+  Add to your query: .includes([:target_groups])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:50:in `target_groups'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:17:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 15:59:25[WARN] user: root
+GET /school/courses/3/targets/78/details
+USE eager loading detected
+  TargetGroup => [:targets]
+  Add to your query: .includes([:targets])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:64:in `targets'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/schools/courses/curriculum_presenter.rb:18:in `props'
+  /home/kochar/Documents/pupilfirst-master/app/presenters/application_presenter.rb:10:in `props_to_json'
+  /home/kochar/Documents/pupilfirst-master/app/views/schools/courses/curriculum.html.erb:12:in `_app_views_schools_courses_curriculum_html_erb___445978565676283201_167900'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/schools/targets_controller.rb:9:in `content'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 16:05:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 16:05:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 16:07:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 16:07:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 16:11:14[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEvent => [:founders, :timeline_event_owners]
+  Remove from your query: .includes([:founders, :timeline_event_owners])
+Call stack
+
+2020-06-08 16:11:14[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEventOwner => [:founder]
+  Remove from your query: .includes([:founder])
+Call stack
+
+2020-06-08 16:18:10[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEvent => [:founders, :timeline_event_owners]
+  Remove from your query: .includes([:founders, :timeline_event_owners])
+Call stack
+
+2020-06-08 16:18:10[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEventOwner => [:founder]
+  Remove from your query: .includes([:founder])
+Call stack
+
+2020-06-08 17:23:09[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEvent => [:founders, :timeline_event_owners]
+  Remove from your query: .includes([:founders, :timeline_event_owners])
+Call stack
+
+2020-06-08 17:23:09[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEventOwner => [:founder]
+  Remove from your query: .includes([:founder])
+Call stack
+
+2020-06-08 17:57:54[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEvent => [:founders, :timeline_event_owners]
+  Remove from your query: .includes([:founders, :timeline_event_owners])
+Call stack
+
+2020-06-08 17:57:54[WARN] user: root
+POST /graphql
+AVOID eager loading detected
+  TimelineEventOwner => [:founder]
+  Remove from your query: .includes([:founder])
+Call stack
+
+2020-06-08 18:10:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 18:10:32[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 18:11:06[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 19:52:56[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 19:53:07[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 19:53:07[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 19:53:17[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 19:53:17[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 20:03:32[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 20:03:50[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 20:03:50[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 20:06:25[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 20:06:25[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-08 20:08:19[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-08 20:09:06[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-08 20:09:06[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-08 20:17:05[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-09 12:42:22[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___267136610241118137_170880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-09 12:42:48[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-09 12:42:48[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-09 12:42:55[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-09 12:42:55[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-09 14:45:23[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-09 14:45:23[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-09 14:45:29[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__438405127169576037_174880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__438405127169576037_174880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-09 14:45:38[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb__438405127169576037_174880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb__438405127169576037_174880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-09 14:45:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-09 14:45:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-09 14:46:18[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-09 14:46:18[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-09 21:07:02[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:27:in `thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-09 21:07:02[WARN] user: root
+POST /graphql
+USE eager loading detected
+  Course => [:cover_attachment]
+  Add to your query: .includes([:cover_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:33:in `image_details'
+  /home/kochar/Documents/pupilfirst-master/app/graphql/types/course_type.rb:23:in `cover'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/graphql_controller.rb:18:in `execute'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-10 19:12:14[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___2026112338215078387_166880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___2026112338215078387_166880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/application_controller.rb:159:in `set_time_zone'
+
+2020-06-10 19:17:50[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___2026112338215078387_166880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___2026112338215078387_166880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-10 19:18:07[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-10 19:18:07[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-10 19:24:51[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-10 19:24:51[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-10 19:24:58[WARN] user: root
+GET /
+USE eager loading detected
+  Course => [:thumbnail_attachment]
+  Add to your query: .includes([:thumbnail_attachment])
+Call stack
+  /home/kochar/Documents/pupilfirst-master/app/presenters/home/index_presenter.rb:24:in `course_thumbnail'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:53:in `block in _app_views_home_index_html_erb___2026112338215078387_166880'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `map'
+  /home/kochar/Documents/pupilfirst-master/app/views/home/index.html.erb:48:in `_app_views_home_index_html_erb___2026112338215078387_166880'
+  /home/kochar/Documents/pupilfirst-master/app/controllers/home_controller.rb:4:in `index'
+
+2020-06-10 19:25:58[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-10 19:25:58[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-11 10:15:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-11 10:15:57[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-11 10:21:25[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-11 10:21:25[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+
+2020-06-11 10:21:55[WARN] user: root
+GET /home
+AVOID eager loading detected
+  IssuedCertificate => [:certificate]
+  Remove from your query: .includes([:certificate])
+Call stack
+
+2020-06-11 10:21:55[WARN] user: root
+GET /home
+AVOID eager loading detected
+  Certificate => [:course]
+  Remove from your query: .includes([:course])
+Call stack
+

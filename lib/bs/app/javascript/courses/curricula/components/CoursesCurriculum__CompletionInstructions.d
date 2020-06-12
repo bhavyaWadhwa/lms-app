@@ -1,0 +1,1 @@
+app/javascript/courses/curricula/components/CoursesCurriculum__CompletionInstructions.cmj :  app/javascript/courses/curricula/types/CoursesCurriculum__Types.cmj app/javascript/courses/curricula/types/CoursesCurriculum__Types.cmi app/javascript/shared/Icon.cmj app/javascript/shared/Icon.cmi

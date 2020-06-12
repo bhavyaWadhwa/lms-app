@@ -1,0 +1,1 @@
+app/javascript/packs/CoursesApplyPack.cmj :  app/javascript/courses/apply/CoursesApply__Root.cmj app/javascript/courses/apply/CoursesApply__Root.cmi app/javascript/shared/utils/DomUtils.cmj app/javascript/shared/utils/DomUtils.cmi

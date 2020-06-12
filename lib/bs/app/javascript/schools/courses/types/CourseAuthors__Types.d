@@ -1,0 +1,1 @@
+app/javascript/schools/courses/types/CourseAuthors__Types.cmj :  app/javascript/schools/courses/types/course_authors/CourseAuthors__Author.cmj app/javascript/schools/courses/types/course_authors/CourseAuthors__Author.cmi

@@ -1,0 +1,1 @@
+app/javascript/schools/courses/components/curriculum_editor/CurriculumEditor__FileBlockEditor.cmj :  app/javascript/shared/types/ContentBlock.cmj app/javascript/shared/types/ContentBlock.cmi app/javascript/shared/components/FaIcon.cmj app/javascript/shared/components/FaIcon.cmi

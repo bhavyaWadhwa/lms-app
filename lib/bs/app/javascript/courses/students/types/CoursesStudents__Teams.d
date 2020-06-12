@@ -1,0 +1,1 @@
+app/javascript/courses/students/types/CoursesStudents__Teams.cmj :  app/javascript/courses/students/types/CoursesStudents__TeamInfo.cmj app/javascript/courses/students/types/CoursesStudents__TeamInfo.cmi

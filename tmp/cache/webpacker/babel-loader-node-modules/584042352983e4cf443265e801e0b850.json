@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nvar Caml_builtin_exceptions = require(\"./caml_builtin_exceptions.js\");\n\nfunction get(s, i) {\n  if (i >= s.length || i < 0) {\n    throw [Caml_builtin_exceptions.invalid_argument, \"index out of bounds\"];\n  }\n\n  return s.charCodeAt(i);\n}\n\nexports.get = get;\n/* No side effect */","map":null,"metadata":{},"sourceType":"module"}

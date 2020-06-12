@@ -1,0 +1,6 @@
+# Logfile created on 2020-06-11 21:15:49 +0530 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-06-11 21:15:49 +0530 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [efb9e3f5] Running [ -d $HOME/.rbenv/versions/2.7.1 ] as root@10.0.2.15
+ DEBUG [efb9e3f5] Command: [ -d $HOME/.rbenv/versions/2.7.1 ]

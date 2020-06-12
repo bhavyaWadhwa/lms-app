@@ -1,0 +1,1 @@
+app/javascript/packages/multiselect-inline/src/examples/MultiselectInline__Example.cmj :  app/javascript/packages/multiselect-inline/src/components/MultiselectInline.cmj app/javascript/packages/multiselect-inline/src/components/MultiselectInline.cmi

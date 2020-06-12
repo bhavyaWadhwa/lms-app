@@ -1,0 +1,1 @@
+{"ast":null,"code":"import \"shared/skeleton-loading.css\";","map":{"version":3,"sources":["/home/kochar/Documents/pupilfirst-master/app/javascript/packs/shared/skeleton-loading.js"],"names":[],"mappings":"AAAA,OAAO,6BAAP","sourcesContent":["import \"shared/skeleton-loading.css\";\n"]},"metadata":{},"sourceType":"module"}

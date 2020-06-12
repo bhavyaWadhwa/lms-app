@@ -1,0 +1,1 @@
+app/javascript/schools/courses/components/curriculum_editor/CurriculumEditor__MarkdownBlockEditor.cmj :  app/javascript/shared/types/ContentBlock.cmj app/javascript/shared/types/ContentBlock.cmi app/javascript/shared/utils/Markdown.cmj app/javascript/shared/utils/Markdown.cmi app/javascript/shared/components/MarkdownEditor.cmj app/javascript/shared/components/MarkdownEditor.cmi

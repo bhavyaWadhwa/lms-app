@@ -1,0 +1,1 @@
+app/javascript/schools/settings/types/SchoolCustomize__Types.cmj :  app/javascript/schools/settings/types/SchoolCustomize__Customizations.cmj app/javascript/schools/settings/types/SchoolCustomize__Customizations.cmi

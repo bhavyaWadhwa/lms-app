@@ -1,0 +1,1 @@
+app/javascript/packs/CoursesReviewPack.cmj :  app/javascript/courses/review/components/CoursesReview__Root.cmj app/javascript/courses/review/components/CoursesReview__Root.cmi app/javascript/courses/review/types/CoursesReview__Types.cmj app/javascript/courses/review/types/CoursesReview__Types.cmi app/javascript/shared/utils/DomUtils.cmj app/javascript/shared/utils/DomUtils.cmi

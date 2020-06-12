@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nfunction equal(x, y) {\n  return x === y;\n}\n\nvar max = 2147483647;\nvar min = -2147483648;\nexports.equal = equal;\nexports.max = max;\nexports.min = min;\n/* No side effect */","map":null,"metadata":{},"sourceType":"module"}

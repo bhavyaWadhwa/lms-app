@@ -1,0 +1,1 @@
+{"ast":null,"code":"import \"courses/leaderboard.css\";","map":{"version":3,"sources":["/home/kochar/Documents/pupilfirst-master/app/javascript/packs/courses/leaderboard.js"],"names":[],"mappings":"AAAA,OAAO,yBAAP","sourcesContent":["import \"courses/leaderboard.css\";\n"]},"metadata":{},"sourceType":"module"}

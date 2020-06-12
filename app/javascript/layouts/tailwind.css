@@ -1,0 +1,464 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,300i,400,500,600,700,800,900|Quicksand:300,400,500,600,700&display=swap');
+/* Custom utilities */
+
+.max-w-fc {
+  max-width: fit-content;
+}
+
+/* Custom Style */
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color:#333;
+  @apply w-full h-full antialiased;
+}
+
+@screen md {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme(colors.gray.500) theme(colors.gray.100);
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: theme(colors.gray.100);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: theme(colors.gray.500);
+    border-radius: 6px;
+    border: 3px solid theme(colors.gray.100);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+/* Input */
+
+input:disabled, .disabled {
+  @apply cursor-not-allowed;
+background:#eee;
+color:#999;
+}
+
+/* Button */
+
+button:focus {
+  outline: none;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center whitespace-no-wrap text-sm font-semibold py-2 px-4 rounded cursor-pointer;
+}
+
+.btn:focus {
+  @apply outline-none shadow-inner;
+}
+
+/* Button Styles */
+
+.btn-default {
+  @apply;
+  background-color:#09667b;
+color:#fff;
+}
+
+.btn-default:hover {
+  @apply;
+ background-color:#09667b;
+color:#fff;
+}
+
+.btn-default:focus {
+  @apply;
+  background-color:09667b;
+color:#fff;
+}
+
+.btn-subtle {
+  @apply text-gray-800;
+background:#eee;
+}
+
+.btn-subtle:hover {
+  @apply bg-gray-300 text-gray-900;
+}
+
+.btn-subtle:focus {
+  @apply bg-gray-400 text-gray-900;
+}
+
+.btn-primary {
+  @apply  text-white shadow;
+  background:#09667b;
+}
+
+.btn-primary:hover {  
+  background:#0b4f5f;
+}
+
+.btn-primary:focus 
+{
+  background:#0b4f5f;
+}
+
+
+.btn-primary-ghost:hover {
+  @apply bg-primary-100 text-primary-600 border-primary-400;
+}
+
+.btn-primary-ghost:focus {
+  @apply bg-primary-800 text-white border-primary-400;
+}
+
+.btn-secondary {
+  @apply bg-secondary-500 text-white;
+  background-image: linear-gradient( 135deg, rgba(246, 16, 103, 1) 0%, rgba(172, 6, 69, 1) 100%);
+}
+
+.btn-secondary:hover {
+  @apply bg-secondary-600;
+  background-image: linear-gradient( 135deg, rgba(172, 6, 69, 1) 0%, rgba(123, 5, 49, 1) 100%);
+}
+
+.btn-secondary:focus {
+  @apply bg-secondary-800;
+  background-image: none;
+}
+
+.btn-success {
+  @apply text-white;
+  background:#09667d;
+}
+
+.btn-success:hover {
+  @apply;
+  background:#09667d;
+}
+
+.btn-success:focus {
+  @apply;
+  background-image: none;
+}
+
+.btn-warning {
+  @apply bg-yellow-500 text-white;
+  background-image: linear-gradient( 135deg, rgba(237, 137, 54, 1) 0%, rgba(221, 107, 32, 1) 100%);
+}
+
+.btn-warning:hover {
+  @apply bg-yellow-600;
+  background-image: linear-gradient( 135deg, rgba(221, 107, 32, 1) 0%, rgba(192, 86, 33, 1) 100%);
+}
+
+.btn-warning:focus {
+  @apply bg-yellow-800;
+  background-image: none;
+}
+
+.btn-danger {
+  @apply bg-red-500 text-white;
+  background-image: linear-gradient( 135deg, rgba(245, 101, 101, 1) 0%, rgba(229, 62, 62, 1) 100%);
+}
+
+.btn-danger:hover {
+  @apply bg-red-600;
+  background-image: linear-gradient( 135deg, rgba(229, 62, 62, 1) 0%, rgba(197, 48, 48, 1) 100%);
+}
+
+.btn-danger:focus {
+  @apply bg-red-800;
+  background-image: none;
+}
+
+button:disabled, .disabled {
+  @apply cursor-not-allowed  shadow-none border-transparent;
+  background-image: none;
+background-color:#eee;
+color:#aaa;
+}
+
+button:disabled:hover, .disabled:hover, button:disabled:focus, .disabled:focus {
+  @apply border-transparent shadow-none;
+  background-image: none;
+background-color:#eee;
+color:#aaa;
+}
+
+.btn-small {
+  @apply py-1 px-3 text-xs h-7 leading-normal;
+}
+
+.btn-normal {
+  @apply py-1 px-4 text-sm h-8;
+}
+
+.btn-large {
+  @apply py-2 px-5 text-base h-10;
+}
+
+.button-xl {
+  @apply py-2 px-6 text-base h-12;
+}
+
+/* Footer Style */
+
+.footer__container {
+  background-color:#eee;
+}
+
+.footer__bottom 
+{
+  background-color:#cfe2e6;
+}
+
+@screen md {
+  .dropdown__list {
+    max-height: 20rem;
+  }
+}
+
+.dropdown__list-right {
+  @apply right-0;
+}
+
+.dropdown__list-left {
+  @apply left-0;
+}
+
+
+.dropdown__list-left:before, .dropdown__list-left:after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+}
+
+.dropdown__list-left:before {
+  top: -7px;
+  left: 9px;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid theme("colors.gray.400");
+  border-left: 7px solid transparent;
+  border-bottom-color: theme("colors.gray.400");
+}
+
+.dropdown__list-left:after {
+  top: -6px;
+  left: 10px;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  border-left: 6px solid transparent;
+}
+
+.dropdown__list-right:before, .dropdown__list-right:after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+}
+
+.dropdown__list-right:before {
+  top: -7px;
+  right: 9px;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid theme("colors.gray.400");
+  border-left: 7px solid transparent;
+  border-bottom-color: theme("colors.gray.400");
+}
+
+.dropdown__list-right:after {
+  top: -6px;
+  right: 10px;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid white;
+  border-left: 6px solid transparent;
+}
+
+/* Gradients */
+
+@responsive {
+  .bg-gradient-primary-600-to-primary-800-to-bottom {
+    background:#09667b;
+  }
+}
+.school-index__about
+{
+background-color:#09667b!important;
+}
+nav .flex .max-w-sm img
+{
+ width:130px;
+}
+.border-primary-500
+{
+border-color:#09667b!important;
+}
+.text-primary-500
+{
+ color:#09667b!important;
+}
+.hover\:text-primary-500:hover
+{
+ color:#09667b!important;
+}
+.svg-bg-pattern-1
+{
+background-color:#09667b!important;
+background-image:none!important;
+}
+.hover\:border-primary-400:hover, .hover\:text-primary-600:hover
+{
+ border-color:#09667b!important;
+}
+.bg-orange-400
+{
+background-color:#09667b!important;	
+}
+.curriculum__target-status
+{
+color:#09667b!important;
+border-color:#09667b!important;
+background:#efefef;
+}
+.curriculum__target-group-container:not(:last-child)::before
+{
+background-color:#09667b!important;
+}
+.course-overlay__body-tab-item--selected
+{
+color:#09667b!important;
+}
+.hover\:text-primary-400:hover
+{
+color:#09667b!important;
+}
+.btn-secondary
+{
+background:#09667b!important;
+}
+.btn-secondary:hover
+{
+background:#09667b!important;
+}
+.hover\:border-primary-500:hover
+{
+border-color:#09667b!important;
+}
+.text-primary-400
+{
+color:#09667b!important;
+}
+.focus\:border-primary-400:focus
+{
+border-color:#09667b!important;
+}
+.btn-primary-ghost:hover
+{
+color:#09667b!important;
+}
+.border-primary-200
+{
+ border-color:#09667b!important;
+ box-shadow:none!important;
+}
+.bg-gray-100
+{
+background-color:#e9f3f5;
+}
+.text-gray-700, .federated-signin-in__seperator span
+{
+color:#999!important
+}
+#users-home
+{
+
+}
+.bg-gray-200{background:#eee;}
+.antialiased.h-screen
+{
+  flex-direction: row-reverse;
+}
+.school-admin-navbar__primary-nav ul
+{
+  display: none;
+}
+.school-admin-navbar__primary-nav div ul
+{
+  display: block;
+}
+.school-admin-navbar__header
+{
+  display: none;
+}
+.school-admin-navbar__primary-nav, .school-admin-navbar__primary-nav-link--active
+{
+  background:#fff;
+}
+.school-admin-navbar__primary-nav-link 
+{
+color: #09667b;
+border-bottom: #eee solid 1px;
+margin-left:10px;
+}
+.school-admin-navbar__primary-nav ul li ul li a
+{
+  color: #09667b;
+}
+.school-admin-navbar__primary-nav ul li ul li a:hover
+{
+  color: #fff;
+}
+.school-admin-navbar__primary-nav-link:hover , .school-admin-navbar__primary-nav-link--active:hover
+{
+  color:#fff;
+  background:#09667b;
+}
+.school-admin-navbar__primary-nav-link--active::before
+{
+ display: none;
+}
+.school-admin-navbar__primary-nav-link--active::after
+{
+ display: none;
+}
+.school-admin-navbar__secondary-nav 
+{
+background:#e9f3f5
+}
+.school-admin-navbar__secondary-nav .bg-gray-400, .hover\:bg-gray-400:hover
+{
+background-color:#e8e4e4!important;
+}

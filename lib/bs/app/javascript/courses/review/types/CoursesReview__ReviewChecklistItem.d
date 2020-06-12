@@ -1,0 +1,1 @@
+app/javascript/courses/review/types/CoursesReview__ReviewChecklistItem.cmj :  app/javascript/courses/review/types/CoursesReview__ReviewChecklistResult.cmj app/javascript/courses/review/types/CoursesReview__ReviewChecklistResult.cmi

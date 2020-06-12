@@ -1,0 +1,1 @@
+app/javascript/shared/components/Sorter.cmj :  app/javascript/shared/components/Dropdown.cmj app/javascript/shared/components/Dropdown.cmi app/javascript/shared/components/FaIcon.cmj app/javascript/shared/components/FaIcon.cmi app/javascript/shared/Icon.cmj app/javascript/shared/Icon.cmi

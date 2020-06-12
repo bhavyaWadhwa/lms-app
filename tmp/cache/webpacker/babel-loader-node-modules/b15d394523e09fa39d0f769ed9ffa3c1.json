@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nfunction Impl(T) {\n  return {};\n}\n\nexports.Impl = Impl;\n/* No side effect */","map":null,"metadata":{},"sourceType":"module"}

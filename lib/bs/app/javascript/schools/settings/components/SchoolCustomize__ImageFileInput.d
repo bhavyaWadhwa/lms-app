@@ -1,0 +1,1 @@
+app/javascript/schools/settings/components/SchoolCustomize__ImageFileInput.cmj :  app/javascript/schools/shared/components/School__InputGroupError.cmj app/javascript/schools/shared/components/School__InputGroupError.cmi

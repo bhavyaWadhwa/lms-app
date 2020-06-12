@@ -1,0 +1,1 @@
+app/javascript/schools/coaches/types/CoachesSchoolIndex__Types.cmj :  app/javascript/schools/coaches/types/school_index/CoachesSchoolIndex__Coach.cmj app/javascript/schools/coaches/types/school_index/CoachesSchoolIndex__Coach.cmi

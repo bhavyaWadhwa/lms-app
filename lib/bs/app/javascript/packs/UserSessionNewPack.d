@@ -1,0 +1,1 @@
+app/javascript/packs/UserSessionNewPack.cmj :  app/javascript/shared/utils/DomUtils.cmj app/javascript/shared/utils/DomUtils.cmi app/javascript/users/UserSessionNew.cmj app/javascript/users/UserSessionNew.cmi

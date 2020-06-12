@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nfunction __(tag, block) {\n  block.tag = tag;\n  return block;\n}\n\nexports.__ = __;\n/* No side effect */","map":null,"metadata":{},"sourceType":"module"}
